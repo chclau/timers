@@ -1,1 +1,4 @@
 Test bench for timers block tutorial
+
+tb_timer_behav.wcfg - Vivado waveform for timer block simulation
+tb_top_timer_blk - Testbench code
