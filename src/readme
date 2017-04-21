@@ -1,1 +1,5 @@
 VHDL sources for timers block tutorial
+
+timer - basic VHDL timer block
+top_timer_blk - Implements several timers using FOR GENERATE loop
+timer_pkg - Packager for top_timer_blk
