@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_timer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_timer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="100000000fs"></ZoomStartTime>
+      <ZoomEndTime time="612000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="95"></NameColumnWidth>
+      <ValueColumnWidth column_width="50"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wave_markers>
+      <marker time="210000000" label="" />
+      <marker time="350000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_timer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_timer/timer_inst/timer_reg" type="array">
+      <obj_property name="ElementShortName">timer_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_reg[3:0]</obj_property>
+   </wvobject>
+</wave_config>
